@@ -311,8 +311,9 @@ class _NoteHomeState extends State<NoteHome> {
                                                                         ),
                                                                         child:
                                                                             Padding(
-                                                                          padding:
-                                                                              const EdgeInsets.symmetric(horizontal: 10),
+                                                                          padding: const EdgeInsets
+                                                                              .symmetric(
+                                                                              horizontal: 10),
                                                                           child:
                                                                               DropdownButtonFormField<String>(
                                                                             decoration:
@@ -348,10 +349,11 @@ class _NoteHomeState extends State<NoteHome> {
                                                                       ),
                                                                     ],
                                                                   ),
-                                                                  //Creat note button
+                                                                  // update note button
                                                                   const SizedBox(
-                                                                      height:
-                                                                          10.0),
+                                                                    height:
+                                                                        10.0,
+                                                                  ),
                                                                   ElevatedButton(
                                                                     onPressed:
                                                                         () async {

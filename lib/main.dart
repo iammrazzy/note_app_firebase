@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:note_project/Auth/login_page.dart';
-import 'package:note_project/Controller/theme_controller.dart';
 import 'package:note_project/View/home.dart';
+import 'package:note_project/controllers/theme_controller.dart';
 import 'package:note_project/firebase_options.dart';
 
 void main() async {
